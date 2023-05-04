@@ -6,7 +6,7 @@ namespace Damien.ProjectileSystem
 {
     public class ProjectileHandler : MonoBehaviour
     {
-        [SerializeField]internal ProjectileHandlerBehaviour Behaviour;
+        [SerializeField] internal ProjectileHandlerBehaviour Behaviour;
 
         private void Start()
         {
