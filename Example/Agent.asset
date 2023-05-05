@@ -10,7 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb82e2053d7be749be60278cd88b39c, type: 3}
-  m_Name: DebugAgent
+  m_Name: Agent
   m_EditorClassIdentifier: 
-  Name: Debug
+  Name: Test Agent
+  Continous: 0
+  AttackRange: 10
   AttackSpeed: 2
+  HandlerUseWeights: 1
+  HandlerUseOrder: 0
+  Handlers:
+  - Order: 1
+    Weight: 25
+    Handler: {fileID: 11400000, guid: 1ebbc68c381e9b04da279aae4990ac91, type: 2}
+  - Order: 1
+    Weight: 50
+    Handler: {fileID: 11400000, guid: 1b4ec2c5ff305b54e8470e63b3de5e81, type: 2}
